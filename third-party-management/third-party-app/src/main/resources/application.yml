@@ -1,0 +1,20 @@
+dubbo:
+  application:
+    name: third-party-app
+  protocol:
+    port: 20881
+    payload: 104857600
+    name: hessian
+  registry:
+    address:  zookeeper://www.zqazb.xyz:2181
+
+wash:
+  upload:
+    baseUrl: http://www.zqazb.xyz/
+    allowTypes:
+      - image/jpeg
+      - image/png
+      - image/bmp
+  sms:
+    accessKeyId: C19349794
+    accessKeySecret: 1c2f520826701e4b3f4c41af03ec05c2

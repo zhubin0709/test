@@ -1,0 +1,15 @@
+com\wash\common\entity\CommonResponse.class
+com\wash\common\exception\PermissionDeniedException.class
+com\wash\common\util\CookieUtils.class
+com\wash\common\util\IdWorker.class
+com\wash\common\exception\ServiceException.class
+com\wash\common\upload\FastdfsClient.class
+com\wash\common\util\PhoneFormatCheckUtils.class
+com\wash\common\exception\ResourceNotFoundException.class
+com\wash\common\exception\ParamValidationException.class
+com\wash\common\handler\CustomExceptionHandler.class
+com\wash\common\util\UrlUtils.class
+com\wash\common\exception\SystemException.class
+com\wash\common\exception\VersionValidationException.class
+com\wash\common\base\mapper\BaseMapper.class
+com\wash\common\util\RestTemplateUtils.class

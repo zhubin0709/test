@@ -1,0 +1,74 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+    hikari:
+      auto-commit: true
+      connection-test-query: SELECT 1
+      connection-timeout: 30000
+      idle-timeout: 30000
+      max-lifetime: 1800000
+      maximum-pool-size: 15
+      minimum-idle: 5
+      pool-name: DatebookHikariCP
+      type: com.zaxxer.hikari.HikariDataSource
+  rabbitmq:
+    host: www.zqazb.xyz
+    username: root
+    password: root
+    virtual-host: /
+    template:
+      retry:
+        enabled: true
+        initial-interval: 10000ms
+        max-interval: 30000ms
+        multiplier: 2
+      exchange: wash.sms.queue
+dubbo:
+  application:
+    name: wash-app
+    qos-enable: false
+  protocol:
+    port: 20881
+  registry:
+    address: zookeeper://localhost:2181
+server:
+  port: 7000
+logging:
+  level:
+    com.wash.mapper: debug
+
+goldClient:
+  url: https://restapi.amap.com/v3/
+  key: 8561d5cedbf9ad03ab7c7819188d7d1d
+
+
+weixin4j:
+  #微信开发配置
+  config:
+    #公众号原始ID
+    originalid:
+    #消息加密方式 0:明文模式(默认), 1:兼容模式, 2:安全模式(推荐)
+    encodingtype: 0
+    #消息加密密钥(43位字符组成A-Za-z0-9)
+    encodingaeskey: X0daZtvg9pAymlF3yoFWFrUQg9EFZGQ5gLCLhpJ5qdy
+    #网页安全授权URL
+    oauthUrl:
+    #开发者第三方用户唯一凭证
+    appid: wxd84233ad09456d93
+    #开发者第三方用户唯一凭证密钥
+    secret: a84bb99f1202d2172139049bcc8cc97d
+  #微信支付配置
+  payConfig:
+    #微信支付_商户ID，例如10000000001
+    partnerId:
+    #微信支付_商户密钥，由商户设置32位字符
+    partnerKey:
+    #微信支付_通知URL，异步接收微信支付结果的URL
+    notifyUrl:
+    #证书路径(pk12格式)，例如：/opt/cert/10000000001.pk12
+    certPath:
+    #证书密钥,默认为商户ID，例如：10000000001
+    certSecret:

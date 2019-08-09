@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="commons-codec-1.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/third-party-management/third-party-app/src/main/resources/lib/commons-codec-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/third-party-management/third-party-app/src/main/resources/lib/commons-httpclient-3.0-rc4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/third-party-management/third-party-app/src/main/resources/lib/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/third-party-management/third-party-app/src/main/resources/lib/dom4j-1.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

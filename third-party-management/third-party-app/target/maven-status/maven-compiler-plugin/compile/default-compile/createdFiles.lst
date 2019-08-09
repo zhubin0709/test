@@ -1,0 +1,8 @@
+com\wash\third\ThirdPartyServiceApplication.class
+com\wash\third\sms\listener\SmsListener.class
+com\wash\third\sms\config\SmsProperties.class
+com\wash\third\sms\utils\SmsUtil.class
+com\wash\third\upload\config\FastClientImporter.class
+com\wash\third\upload\config\FastdfsClientConfig.class
+com\wash\third\upload\config\UploadProperties.class
+com\wash\third\upload\service\UploadServiceImpl.class

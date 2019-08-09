@@ -1,0 +1,11 @@
+com\wash\controller\WashEngineerController.class
+com\wash\controller\GouldController.class
+com\wash\config\Swagger2.class
+com\wash\WashApiApplication.class
+com\wash\controller\CateGoryController.class
+com\wash\controller\WashSubscribeController.class
+com\wash\controller\WashUserLoginController.class
+com\wash\controller\WashMaintenanceController.class
+com\wash\controller\WeiXinReCommend.class
+com\wash\controller\WashCaseShowController.class
+com\wash\controller\RotaryPlantingMapController.class

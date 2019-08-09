@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user-app" />
+        <module name="user-interface" />
+        <module name="wash_interface" />
+        <module name="wash-domain" />
+        <module name="user-api" />
+        <module name="third-party-app" />
+        <module name="wash-mapper" />
+        <module name="third-party-interface" />
+        <module name="wash-common" />
+        <module name="wash_api" />
+        <module name="third-party-api" />
+        <module name="wash_app" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="user-management" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

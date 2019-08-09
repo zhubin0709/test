@@ -1,0 +1,14 @@
+server:
+  port: 7002
+dubbo:
+  registry:
+    address: zookeeper://localhost:2181
+  application:
+    name: wash-app
+    qos-enable: false
+spring:
+  jackson:
+    default-property-inclusion: non_null
+logging:
+  level:
+   com.wash: debug
