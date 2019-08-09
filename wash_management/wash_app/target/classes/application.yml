@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://192.168.1.114:3306/test?useSSL=false&serverTimezone=UTC
     username: root
     password: 123456
     hikari:
@@ -33,7 +33,7 @@ dubbo:
   protocol:
     port: 20881
   registry:
-    address: zookeeper://localhost:2181
+    address: zookeeper://www.zqazb.xyz:2181
 server:
   port: 7000
 logging:
