@@ -24,7 +24,7 @@
         <dubbo-spring-boot-starter-version>0.2.0</dubbo-spring-boot-starter-version>
         <tk-mybatis-version>2.1.5</tk-mybatis-version>
         <tk-mybatis-mapper-version>3.5.2</tk-mybatis-mapper-version>
-        <commons-fileupload.version>1.3.3</commons-fileupload.version>
+        <commons-fileupload.version>1.5</commons-fileupload.version>
         <fastdfs-client-java-version>1.27-SNAPSHOT</fastdfs-client-java-version>
         <commons-lang3-version>3.8.1</commons-lang3-version>
         <weixin4j-spring-boot-starter-version>1.0.0</weixin4j-spring-boot-starter-version>
